@@ -1,5 +1,7 @@
 # Real-Time C++
 
+## Intro
+
 A real-time (RT) system is one where the CPU allocates time to tasks based on a specific scheduling "recipe" (algorithm) to meet timing constraints and ensure predictable behavior. <br>
 The correctness of the system depends not just on the results of computations but also on the timing of when those computations are performed.<br>
 [Rate Monotonic Scheduling](https://en.wikipedia.org/wiki/Rate-monotonic_scheduling) (RMS) is one of the most commonly used algorithms for real-time systems, especially for systems with periodic tasks and fixed priorities.<br> 
@@ -24,6 +26,8 @@ if (pthread_setschedparam(thread, SCHED_FIFO, &param) != 0) {
 
 //...
 ```
+
+## Run samples
 
 ```bash
 
